@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float num1=54.53,num2=67.45;
+    //variable declaration and initialization
+    float sub=num2-num1;
+    //formula of subtraction
+
+    printf("Difference of two float numbers are: %.2f\n",sub);
+    //display the result
+    getch();
+    return 0;
+}
