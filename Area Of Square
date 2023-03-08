@@ -1,0 +1,17 @@
+#include<stdio.h>
+float area(float s)
+{
+	return (s*s);
+}
+ 
+int main()
+{
+	float s,a;
+	
+	printf("enter side of square: ");
+	scanf("%f",&s);
+	
+	a=area(s);
+	printf("AOS: %f\n",a);
+	return 0;
+}
